@@ -18,7 +18,7 @@ public class Main {
         Guarderia nino1 = new Guarderia(nombre,edad,genero,alergias, documento, nombreAcudiente, numeroContacto);
 
         //Mostrar informacion del estudiante
-        System.out.println("\nInformacion del estudiante registrado:");
+        JOptionPane.showMessageDialog(null ,"\nInformacion del estudiante registradoº   ");
         nino1.mostrarInfo();
 
     }
